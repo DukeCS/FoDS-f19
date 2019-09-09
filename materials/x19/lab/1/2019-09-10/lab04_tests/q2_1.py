@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> num_ceos_more_than_30_million_2 == 5
+          >>> to_percentage(.35) == 35.0
           True
 
           """,

@@ -6,17 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> len(cash_proportion) == 102
-          True
-
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> import math
-          >>> math.isclose(cash_proportion.item(0), 0.01784038, rel_tol = .001)
+          >>> num_non_vowels("Go bears!") == 6
           True
 
           """,

@@ -6,9 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> import math
-          >>> math.isclose(average_total_pay, 11445294.117647059, rel_tol = 1)
-          True
+          >>> print_kth_top_movie_year(4)
+          Year number 4 for total gross movie sales was: 2009
 
           """,
           'hidden': False,
