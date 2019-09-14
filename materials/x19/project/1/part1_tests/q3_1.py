@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 < us_birth_rate < 1
+          >>> 0.01 < us_birth_rate < 0.02
           True
           """,
           'hidden': False,
