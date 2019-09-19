@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 < movers <= 52
+          >>> 5 < movers <= 15
           True
           """,
           'hidden': False,

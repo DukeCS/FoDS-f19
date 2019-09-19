@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> 0 <= less_than_west_births <= 52
+          >>> 5 <= less_than_west_births <= 15
           True
           """,
           'hidden': False,
