@@ -8,8 +8,6 @@ test = {
           'code': r"""
           >>> 100 <= triple_record_vert_est <= 200
           True
-          >>> np.all(regression_changes == make_array(False, True, True))
-          True
           """,
           'hidden': False,
           'locked': False
