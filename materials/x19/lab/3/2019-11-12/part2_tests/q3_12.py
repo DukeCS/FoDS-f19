@@ -15,14 +15,14 @@ test = {
         },
         {
           'code': r"""
-          >>> question_12_choice.item(0) == 3
+          >>> question_12_choice[0] == 3
           True
           """,
           'hidden': False,
           'locked': False
         }
       ],
-      'scored': True,
+      'scored': False,
       'setup': '',
       'teardown': '',
       'type': 'doctest'

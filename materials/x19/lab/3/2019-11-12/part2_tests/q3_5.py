@@ -6,7 +6,7 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> lower_end > 5
+          >>> lower_end < 5
           True
           """,
           'hidden': False,
@@ -22,7 +22,7 @@ test = {
         },
         {
           'code': r"""
-          >>> lower_end > 1 and lower_end < 9
+          >>> lower_end > 1 and upper_end < 9
           True
           """,
           'hidden': False,
